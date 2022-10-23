@@ -31,12 +31,14 @@ img {
 }
 .tab {
 padding: 8px;
-font-size: 20px;
+font-size: 28px;
+font-weight: bold;
 background-color: #fff;
 cursor: pointer;
+font-family:monospace;
 }
 .tab:hover {
-    background-color: rgb(165, 165, 165);
+    background-color: #ff1491a4;
 }
 .tab:nth-child(1) {
     border-top-left-radius: 20px;
@@ -44,10 +46,14 @@ cursor: pointer;
 .tabContent {
     display: none;
     padding: 15px;
+    font-size: 18px;
+    text-shadow: 1px 1px 5px  rgb(194, 94, 64);
+    font-weight:bold;
+    font-family:monospace;
 }
 .active {
     display: block;
 }
 .pressed {
-    background-color: rgb(165, 165, 165);
+    background-color: #ff1491a4;
 }
